@@ -5,9 +5,7 @@ const ACTIONS = {
     CODE_CHANGE: 'code-change',
     SYNC_CODE: 'sync-code',
     LEAVE: 'leave',
+    LANGUAGE_CHANGE: 'language-change',
 };
 
-
-module.exports = ACTIONS;
-
-// export default ACTIONS;
+export default ACTIONS;

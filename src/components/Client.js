@@ -1,13 +1,40 @@
-import React from 'react'
-import Avatar from 'react-avatar';
+import React from "react";
+import Avatar from "react-avatar";
 
-const Client = ({username}) => {
+const Client = ({ username, isCurrentUser }) => {
   return (
-    <div className='client'>
-        <Avatar name= {username} size={50} round='14px' />
-        <span className='userName'>{username}</span>
-    </div>
-  )
-}
+    <div className="client">
 
-export default Client
+      <div className="clientAvatarWrapper">
+
+        <Avatar
+          name={username}
+          size="50"
+          round="16px"
+          className="clientAvatar"
+        />
+
+        <span className="onlineIndicator" />
+
+      </div>
+
+
+      <div className="clientInfo">
+
+        <span className="userName">
+          {username}
+        </span>
+
+        {isCurrentUser && (
+          <span className="youBadge">
+            You
+          </span>
+        )}
+
+      </div>
+
+    </div>
+  );
+};
+
+export default Client;
