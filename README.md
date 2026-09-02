@@ -404,44 +404,39 @@ CodeSync AI focuses on providing a **clean, modern, and developer-focused worksp
 
 ## 📸 Screenshots
 
-> Add screenshots of the application here to showcase the main features and user interface.
+A visual overview of the main features and user experience of **CodeSync AI**.
 
 ### 🏠 Home Page
 
-```text
-screenshots/home-page.png
-```
+The clean entry point where developers can create a new collaborative room or join an existing one.
 
-### 💻 Collaborative Editor
+![CodeSync AI Home Page](screenshots/01-%20home-page.png)
 
-```text
-screenshots/editor-workspace.png
-```
+---
+
+### 💻 Collaborative Workspace
+
+The real-time coding environment with the code editor, connected users, language selection, and workspace controls.
+
+![CodeSync AI Collaborative Workspace](screenshots/02%20-%20editor-workspace.png)
+
+---
 
 ### 🧠 AI Code Assistant
 
-```text
-screenshots/ai-assistant.png
-```
+The integrated AI assistant that helps developers explain code, identify bugs, improve code, generate documentation, and answer custom questions.
+
+![CodeSync AI Assistant](screenshots/03%20-%20ai-assistant.png)
+
+---
 
 ### 🤝 Real-Time Collaboration
 
-```text
-screenshots/realtime-collaboration.png
-```
+Multiple developers connected to the same room with synchronized code updates and live online user indicators.
 
-Once the screenshots are added, they can be displayed like this:
+![CodeSync AI Real-Time Collaboration](screenshots/04%20-%20realtime-collaboration.png)
 
-```markdown
-![Home Page](screenshots/home-page.png)
-
-![Collaborative Editor](screenshots/editor-workspace.png)
-
-![AI Code Assistant](screenshots/ai-assistant.png)
-
-![Real-Time Collaboration](screenshots/realtime-collaboration.png)
-```
-
+---
 ---
 
 ## 🔑 Core Functionality
